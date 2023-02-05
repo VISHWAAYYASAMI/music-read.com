@@ -1,0 +1,23 @@
+.gallery{
+    width: 50rem;
+    height: 50rem;
+    bottom: 50%;
+    
+
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    position: relative;
+}
+.gallery > img{
+    
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+    position: sticky;
+    top: 0;
+}
+.ben{
+    clip-path: circle(50%);
+}
